@@ -7,3 +7,9 @@ end
   def index    
   	@list_of_pictures = Picture.all
   end
+
+  def new    
+  end
+
+    def create    
+  end
