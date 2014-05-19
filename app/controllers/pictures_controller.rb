@@ -16,7 +16,7 @@ class PicturesController < ApplicationController
   	@p.source = params["source"]
   	@p.save
  
-  	redirect_to("http://wwww.google.com")
+  	# redirect_to("http.localhost:3000/all_pictures")
 
   end
 
