@@ -9,5 +9,9 @@ Rxngif::Application.routes.draw do
 
   get("/create_picture", { :controller => "pictures", :action => "create" })
 
+  get("/edit_picture_form/:id", { :controller => "pictures", :action => "edit" })
+
+
+
 end
 

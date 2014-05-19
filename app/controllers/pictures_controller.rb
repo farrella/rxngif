@@ -27,5 +27,10 @@ class PicturesController < ApplicationController
 	redirect_to("http://localhost:3000/all_pictures")
   end
 
+  def edit   
+
+
+  	
+  end
 
 end
