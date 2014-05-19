@@ -17,7 +17,6 @@ class PicturesController < ApplicationController
   	@p.save
 
   	redirect_to("http://localhost:3000/all_pictures")
-
   end
 
   def destroy   
@@ -29,6 +28,12 @@ class PicturesController < ApplicationController
 
   def edit   
     @picture = Picture.find_by({ :id => params[:id] })	
+    
+  end
+
+  def update   
+    @picture = Picture.find_by({ :id => params[:id] }).update
+    @picture.save  
   end
 
 end
